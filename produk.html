@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="assets/logo.png" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>EKAJAYA RELOAD</title>
+
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      .home {
+        margin-top: 6rem;
+        padding: 1rem;
+      }
+
+      iframe {
+        border: none;
+        width: 100%;
+        max-width: 100%;
+        height: 1200px;
+      }
+
+      .footer_copy {
+        text-align: center;
+        margin: 2rem 0;
+        font-size: 0.875rem;
+      }
+
+      .fixed-header {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 1000;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      }
+    </style>
+  </head>
+
+  <body>
+    <!--========== SCROLL TOP ==========-->
+    <a
+      href="#"
+      class="scrollTop show-scroll"
+      id="scroll-top"
+      aria-label="Scroll ke atas"
+    >
+      <i class="bx bx-chevron-up scrollTop_icon"></i>
+    </a>
+
+    <!--========== HEADER ==========-->
+    <header class="l-header fixed-header" id="header">
+      <nav class="nav bd-container">
+        <a href="/" class="nav_logo">
+          <b>EKAJAYA <span>RELOAD</span></b>
+        </a>
+
+        <div class="nav_menu" id="nav-menu">
+          <ul class="nav_list">
+            <li class="nav_item">
+              <a href="index.html" class="nav_link">Home</a>
+            </li>
+            <li class="nav_item">
+              <a href="https://ekajayareload.webreport.info/" class="nav_link"
+                >Web Report</a
+              >
+            </li>
+            <li class="nav_item">
+              <a href="produk.html" class="nav_link">Produk</a>
+            </li>
+            <li class="nav_item">
+              <a
+                href="https://play.google.com/store/apps/details?id=com.otoreport.ekajayareload&hl=id"
+                class="nav_link"
+                target="_blank"
+                rel="noopener"
+                >Aplikasi</a
+              >
+            </li>
+            <li class="nav_item">
+              <a
+                href="https://t.me/CS_EKAJAYA_RELOAD"
+                class="nav_link"
+                target="_blank"
+                rel="noopener"
+                >Hubungi Kami</a
+              >
+            </li>
+            <li>
+              <i
+                class="bx bx-moon change-theme"
+                id="theme-button"
+                title="Ubah tema"
+              ></i>
+            </li>
+          </ul>
+        </div>
+
+        <div class="nav_toggle" id="nav-toggle">
+          <button
+            class="menu"
+            aria-label="Abrir Menu"
+            onclick="this.classList.toggle('opened');this.setAttribute('aria-expanded', this.classList.contains('opened'))"
+          >
+            <svg width="40" height="41" viewBox="0 0 100 100">
+              <path
+                class="line line1"
+                d="M 20,29.000046 H 80.000231 ... L 25.000021,25.000058"
+              />
+              <path class="line line2" d="M 20,50 H 80" />
+              <path
+                class="line line3"
+                d="M 20,70.999954 H 80.000231 ... L 25.000021,74.999942"
+              />
+            </svg>
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <!--========== MAIN ==========-->
+    <main class="l-main">
+      <!--========== HOME ==========-->
+      <section class="home section bd-container" id="home">
+        <iframe
+          src="https://ekajayareload.webreport.info/harga.js.php?id=329d6a9dd9de46a40fe23ecd09682bb0fd5fface0f5a78aa14015320ce95625f4016945f67c2d54ff30554a27d1c6f05-5"
+          title="Harga Produk Ekajaya Reload"
+        ></iframe>
+      </section>
+
+      <!--========== ABOUT (Placeholder) ==========-->
+      <footer class="footer section bd-container">
+        <div class="footer_container bd-grid">
+          <div class="footer_content">
+            <b class="footer_logo">EKAJAYA <span>RELOAD</span></b>
+            <span class="footer_description">Layanan terbaik untuk anda</span>
+            <div>
+              <a href="#" class="footer_social" title="Instagram">
+                <i class="bx bxl-instagram"></i>
+              </a>
+              <a href="#" class="footer_social" title="Facebook">
+                <i class="bx bxl-facebook"></i>
+              </a>
+              <a href="#" class="footer_social" title="Twitter">
+                <i class="bx bxl-twitter"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="footer_content">
+            <h3 class="footer_title">Informasi</h3>
+            <ul>
+              <li><a href="#" class="footer_link">Event/Program</a></li>
+              <li><a href="#" class="footer_link">Kebijakan Privasi</a></li>
+              <li><a href="#" class="footer_link">Ketentuan Layanan</a></li>
+            </ul>
+          </div>
+
+          <div class="footer_content">
+            <h3 class="footer_title">Alamat</h3>
+            <ul>
+              <li>Rawa mekar jaya</li>
+              <li>Tangerang Selatan, 15310</li>
+              <li>Provinsi Banten</li>
+            </ul>
+          </div>
+
+          <div class="footer_content">
+            <h3 class="footer_title">Navigasi</h3>
+            <ul>
+              <li>
+                <a
+                  href="https://play.google.com/store/apps/details?id=com.otoreport.ekajayareload&hl=id"
+                  class="footer_link"
+                  target="_blank"
+                  rel="noopener"
+                  >Download</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://t.me/CS_EKAJAYA_RELOAD"
+                  class="footer_link"
+                  target="_blank"
+                  rel="noopener"
+                  >Hubungi Kami</a
+                >
+              </li>
+              <li>
+                <a href="#aps" class="footer_link">Design Banner</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+
+      <!--========== FOOTER ==========-->
+      <footer class="footer section bd-container">
+        <p class="footer_copy">
+          &#169; 2025
+          <a
+            href="https://t.me/EKAJAYARELOAD"
+            class="footer_link"
+            target="_blank"
+            rel="noopener"
+            >EKAJAYA RELOAD</a
+          >
+        </p>
+      </footer>
+    </main>
+
+    <!--========== SCROLL REVEAL LIBRARY ==========-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!--========== MAIN JS ==========-->
+    <script src="main.js"></script>
+  </body>
+</html>
